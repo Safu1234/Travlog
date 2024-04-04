@@ -244,3 +244,129 @@ body {
 .carousel-indicators {
   display: none; /* Hide the carousel indicators */
 }
+.container1 {
+  width: 98%; /* Ensure full width */
+  max-width: 1184px; /* Fixed width */
+  height: 608px; /* Height */
+  padding: 128px 64px; /* Padding */
+  background-color: rgba(250, 205, 73, 0.08); /* Background color */
+  border-radius: 32px; /* Rounded corners */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}
+
+
+.box1 {
+  width: 757px;
+  height: 96px;
+  border-radius: 32px;
+  padding: 32px;
+  gap: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  margin-right: 20px; 
+
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.container2 {
+  width: 114px;
+  height: 28px;
+  border-radius: 32px;
+  padding: 32px;
+  gap: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27.6px;
+  text-align: center;
+  color: rgba(25, 24, 37, 0.75);
+}
+.box {
+  width: 235px;
+  height: 96px;
+  background-color: rgba(93, 80, 198, 1);
+  border-radius: 32px;
+  padding: 32px 64px 32px 64px;
+  margin-bottom: 16px;
+}
+.box h6 {
+  font-family: 'Circular Std', Arial, sans-serif; /* Use fallback fonts as needed */
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27.6px;
+  color: #ffffff; /* Text color */
+  margin: 0; /* Reset margin */
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+  .container1 {
+    padding: 50px;
+  }
+
+  .text-dark {
+    color: #000; /* Change text color for better visibility */
+  }
+
+  .fs-1 {
+    font-size: 1.5rem; /* Adjust font size for better readability */
+  }
+
+  .fw-bolder {
+    font-weight: bold; /* Adjust font weight for better readability */
+  }
+
+  .hello {
+    flex-direction: column; /* Stack the boxes vertically on smaller screens */
+    margin-top: 100px;
+    margin-left:-47px;
+  }
+
+  .box1,
+  .box {
+    width: 310px;
+    height: 40px;
+    border-radius: 9px;
+    padding: 27px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .box {
+    background-color: rgba(93, 80, 198, 1); /* Custom background color for .box */
+  }
+
+  /* Adjust image size */
+  .box1 img.icon {
+    width: 24px;
+    height: 24px;
+  }
+
+}
+
