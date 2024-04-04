@@ -341,7 +341,8 @@ body {
   .hello {
     flex-direction: column; /* Stack the boxes vertically on smaller screens */
     margin-top: 100px;
-    margin-left:-50px;
+    margin-left:-25px;
+  
   }
 
   .box1,
